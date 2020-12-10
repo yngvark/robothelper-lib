@@ -9,4 +9,5 @@ run: compile
 	java -jar build/libs/*.jar $@
 
 publish:
+	@echo Remember to bump
 	./gradlew publish

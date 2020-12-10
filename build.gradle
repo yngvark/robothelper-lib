@@ -36,7 +36,7 @@ publishing {
         maven(MavenPublication) {
             groupId = 'com.yngvark'
             artifactId = 'robothelper'
-            version = '0.7'
+            version = '0.1-SNAPSHOT'
 
             from components.java
         }
